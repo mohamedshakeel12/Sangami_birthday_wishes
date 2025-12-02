@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sangami!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti"></canvas>
+
+    <!-- Balloon Game Overlay -->
+    <div id="game-overlay">
+        <div class="game-instructions">
+            <h1>Pop the Balloons!</h1>
+            <p>Pop all <span id="balloons-left">5</span> balloons to see your surprise!</p>
+        </div>
+        <div id="balloon-container">
+            <!-- Balloons will be generated here by JS -->
+        </div>
+    </div>
+
+    <!-- Main Website Content (Hidden initially) -->
+    <main id="main-content" class="hidden">
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-image-container">
+                <!-- User should replace the src with the actual recent photo -->
+                <img src="C:\Users\Shakeel\Desktop\Wish\images\main1.jpg" alt="sangami's Recent Photo" class="hero-img">
+            </div>
+            <div class="hero-overlay">
+                <div class="hero-content reveal">
+                    <p class="super-title">It's a Special Day</p>
+                    <h1>Happy Birthday <br> <span class="highlight">Sangami!</span></h1>
+                    <p class="subtitle">Celebrating 22 Years of You</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section class="container about-section">
+            <div class="glass-card profile-summary reveal">
+                <div class="summary-header">
+                    <h2>Sangami G K</h2>
+                    <p class="dob">🎉 03 Dec 2003</p>
+                </div>
+                <div class="tags">
+                    <span class="tag">Future IT Pro🚀</span>
+                    <span class="tag">BE Graduate🎓</span>
+                    <span class="tag">Well wisher🙏</span>
+                </div>
+            </div>
+
+            <div class="grid-section">
+                <!-- Interest Cards -->
+                <div class="glass-card interest-card reveal">
+                    <div class="icon">📖</div>
+                    <h3>Wattpad</h3>
+                    <p>Lost in the magic of triangle love stories</p>
+                </div>
+
+                <div class="glass-card interest-card reveal">
+                    <div class="icon">🧠</div>
+                    <h3>Psychology</h3>
+                    <p>Exploring the depths of the human mind</p>
+                </div>
+
+                <div class="glass-card interest-card reveal">
+                    <div class="icon">🏠</div>
+                    <h3>Homebody</h3>
+                    <p>Finding peace and comfort indoors</p>
+                </div>
+
+                <div class="glass-card interest-card reveal">
+                    <div class="icon">🕉️</div>
+                    <h3>Tamil</h3>
+                    <p>A deep love for the language</p>
+                </div>
+            </div>
+
+            <!-- Personal Letter Section -->
+            <div class="letter-section reveal">
+                <div class="paper">
+                    <h2>A Message from Shakeel</h2>
+                    <p class="handwritten">
+                        Dear Sangami,
+                    </p>
+                    <p class="handwritten">
+                        Wish you a very happy birthday Sangami... Amma appa nee yallarum santhosama healthy ah happy
+                        ah eppaiyum irrupinga yallam nalla padiya nadakum... Na romba kuduthu vachu irrukanum ippadi
+                        patta nalla friend en life la kadachathuku...Definitely you will have a great and peaceful
+                        future
+                        ahead...Your one of the important person in my life....
+                    </p>
+                    <p class="handwritten">
+                        May this year bring you all the success in your IT career and all the happiness you deserve.
+                        Stay your awesome, unique self!
+                    </p>
+                    <p class="handwritten signature">
+                        Your friend,<br>
+                        Shakeel
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="container gallery-section">
+            <h2 class="reveal">Memory Lane</h2>
+
+            <h3 class="reveal">Childhood Memories</h3>
+            <div class="gallery-grid childhood-grid">
+                <div class="photo-placeholder reveal"><img src="images/memory4.jpg" alt="Memory 1"></div>
+                <div class="photo-placeholder reveal"><img src="images/memory3.jpg" alt="Memory 1"></div>
+                <div class="photo-placeholder reveal"><img src="images/memory2.jpg" alt="Memory 1"></div>
+                <div class="photo-placeholder reveal"><img src="images/memory1.jpg" alt="Memory 1"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with ❤️ and lots of wishes by <strong>Shakeel</strong></p>
+            <p class="small">© 2025 Birthday Edition</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
